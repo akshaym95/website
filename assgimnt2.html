@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Salvation Ministries</title>
+<link rel = "stylesheet" type = "text/css"   href = "mystyle.css" />
+ 
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="jquery-1.12.4.js"></script>
+  <script src="jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="mainbody">
+        <div class="maintop">
+        <div class="originalbody">
+            <div class="loginandnavigation">
+            <div class="mynav">
+                <a id="active" href="#" class="home"><b>Home</b></a>
+                    <a href="#" id="notactive"  class="droplist"><b>E-Store</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Media Centre</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Resources</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>News Room</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Quick Links</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Programs</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Events</b></a>
+                <a href="#" id="notactive"  class="droplist"><b>Contact Us</b></a>
+                    
+            </div>
+                <div class="mylogin">Login/Register</div>
+            </div>
+            <div class="logoline">
+            <div class="logo">
+                <img src="images/Salvation_logo.png"><br><br><br>
+                <a href="#" class="nounderline"><b>Sublink if any |</b></a>
+                <a href="#" class="nounderline"><b>Sublink if any |</b></a>
+                <a href="#" class="nounderline"><b>Sublink if any |</b></a>
+                <a href="#" class="nounderline"><b>Sublink if any |</b></a>
+                <a href="#" class="nounderline"><b>Sublink if any |</b></a>
+                <a href="#" class="nounderline"><b>Sublink if any</b><br><br></a>
+                <img id="image" src="images/Salvation_mainimg4.png"height="280px" width="610px" >
+                <div class="previousandnext">
+                <div class="previous">
+                    <br>
+                     <img src="images/Salvation_prev.png" onclick="slideshow(-1)">
+                    </div>
+                    <div class="colorbox">
+                    <div  id="mid1" class="midd" onclick="showimg(1)"></div>
+                    <div id="mid2" class="midd" onclick="showimg(2)"></div>
+                    <div id="mid3" class="midd" onclick="showimg(3)"></div>
+                    <div id="mid4" class="midd1" onclick="showimg(4)"></div>
+                    <div id="mid5"class="midd" onclick="showimg(5)"></div>
+                    <div id="mid6" class="midd" onclick="showimg(6)"></div>
+                    </div>
+                <div class="next"> <img src="images/Salvation_next.png" onclick="slideshow(+1)"></div>
+                </div>
+                <div class="threeimages">
+                <div class="image1">
+                    <img id="myimage"src="images/Salvation_img1.png">
+                    <p id="para"><b>Some heading goes here</b><br><br>This simply means to reflect and manifest heaven here on earth.This devine tast left him with the responsibility of making people live heavenly life on the earth through the undiluted and insightful teaching of....</p>
+                    <span style="color:Darkorange;font-size:13px";><b id="readmore"><br>Read More</b></span>
+                    </div>
+                    <div class="image2">
+                    <img id="myimage"src="images/Salvation_img2.png">
+                    <p id="para"><b>Some heading goes here</b><br><br>This simply means to reflect and manifest heaven here on earth.This devine tast left him with the responsibility of making people live heavenly life on the earth through the undiluted and insightful teaching of....</p>
+                    <span style="color:Darkorange;font-size:13px";><b id="readmore"><br>Read More</b></span>
+                    </div>
+                    <div class="image3">
+                    <img id="myimage"src="images/Salvation_img3.png">
+                    <p id="para"><b>Some heading goes here</b><br><br>This simply means to reflect and manifest heaven here on earth.This devine tast left him with the responsibility of making people live heavenly life on the earth through the undiluted and insightful teaching of....</p><span style="color:Darkorange;font-size:13px";><b id="readmore"><br>Read More</b></span>
+                </div>
+                </div>
+                </div>
+                <br>
+                <br>
+                <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <pre>  Tittle Name:
+        <input type="text" id="newtitle" placeholder="title">
+      <br><br>Paragraph :
+      <textarea rows="4" cols="50"  id="contenttext" placeholder="content"></textarea>
+        
+        <br><br></pre>
+    <input type="submit" id="submit">
+    <button type="button" id="cancel">cancel</button>
+        
+  </div>
+
+</div>
+
+            <div class="searchbox">
+                <div class="searchdiv">
+                <div class="box1"><input type="text" name="email" placeholder="Enter search item here" size=27></div>
+                <div class="searchbutton1"><button id="searchbutton" ></button></div>
+                </div> 
+                <br>
+                <br>
+                <br>
+                <br>
+                 <div id="accordion">
+                <h3><div class="featuredprocedure">
+                    <div class="box2"><p id="titletext">Featured Procedure</p> </div>
+                    
+                </div></h3>
+               <div> <div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00<br></h4>
+                        </div>
+                    </div>
+                    <p id="divine2">This book is a must read for everyone that desires the healing power of..</p>
+                   <br>
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                       <div class="moredetails"><button id="edit">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                </div></div>
+              <h3><div class="repeatblock">
+                    <div class="box2"><p id="titletext1">some other category</p> </div></div></h3>
+                      <div><div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00<br></h4>
+                        </div>
+                    </div>
+                    <p id="divine21"><br>This book is a must read for everyone that desires the healing power of...<br><br></p>
+                   
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                        <div class="moredetails"><button id="edit1">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                </div></div>
+               <h3><div class="repeatblock">
+                     <div class="box2"><p id="titletext2">some other category</p> </div></div></h3>
+                    <div> <div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00</h4>
+                        </div>
+                    </div>
+                    <p id="divine22"><br>This book is a must read for everyone that desires the healing power of...<br><br></p>
+                    
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                      <div class="moredetails"><button id="edit2">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                     </div></div>
+                <h3><div class="repeatblock">
+                    
+                     <div class="box2"><p id="titletext3">some other category</p> </div></div></h3>
+                   <div><div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00<br></h4>
+                        </div>
+                    </div>
+                    <p id="divine23"><br>This book is a must read for everyone that desires the healing power of...<br><br></p>
+                    
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                       <div class="moredetails"><button id="edit3">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                </div></div>  
+                 <h3><div class="repeatblock">
+                      
+                     <div class="box2"><p id="titletext4">some other category</p> </div></div></h3>
+                    <div><div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00<br></h4>
+                        </div>
+                    </div>
+                    <p id="divine24"><br>This book is a must read for everyone that desires the healing power of...<br><br></p>
+                   
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                    <div class="moredetails"><button id="edit4">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                </div></div>
+                 <h3><div class="repeatblock">
+                     <div class="box2"><p id="titletext5">some other category</p> </div></div></h3>
+                    <div> <div class="adv">
+                     <br>
+                    <div class="divineblock">
+                    <div class="divinebook"><img src="images/Salvation_sideimg.png"> </div>
+                        <div class="divinetext">
+                            <b>How to receieve Divine Healing</b>
+                            <h4 id="divinetexth4"><br>=N=600.00<br></h4>
+                        </div>
+                    </div>
+                    
+                    <p id="divine25"><br>This book is a must read for everyone that desires the healing power of...<br><br></p>
+
+                    <div class="moredetailsandaddtocart">
+                    <div class="moredetailsimg"><img src="images/Salvation_plus.png"> </div>
+                        <div class="moredetails"><button id="edit5">Edit</button></div>
+                        <div class="addtocartimg"><img src="images/Salvation_cart.png"></div>
+                        <div class="addtocart">Add to Cart</div>
+                    </div>
+                    <div class="color"> See more products in our E-cart</div>
+                </div></div>
+                    </div>
+                <br>
+                <h3 id="quicklinks"><b>Quick Links</b></h3>
+                <ul id="ulid">
+                <li id="listid"><a href="#">A Note from Pastor Joseph</a></li>
+                    <li id="listid"><a href="#">Online Bible Tools</a></li>
+                    <li id="listid"><a href="#">What is a Covenant Partner?</a></li>
+                    <li id="listid"><a href="#">Partner Enrollment</a></li>
+                    <li id="listid"><a href="#">Enroll Now</a></li>
+                    <li id="listid"><a href="#">Login/Register</a></li>
+                </ul>
+                
+                </div>
+            </div>
+                </div>
+            </div>
+        <div class="mainfooter">
+            <br>
+            <div class="radio"><img src="images/Salvation_foot1.png"></div>
+            <div class="radiotext"><b>Listen to our Radio</b></div>
+            <div class="divideline"></div>
+            <div class="divideline1"></div>
+            <div class="movie"><img src="images/Salvation_foot2.png"></div>
+            <div class="movietext"><b>Watch our live Tv Service</b></div>
+            <div class="divideline"></div>
+            <div class="divideline1"></div>
+            <div class="email"><img src="images/Salvation_foot3.png"></div>
+            <div class="emailtext"><b>Sign up for our E-News letters</b></div>
+            <div class="rightfooter">
+            ©2010 Salvation Ministeries Intellectual Property.All rights reserved.
+                <br>Disclaimer | Terms of Use | Privacy policy
+            </div>
+            </div>
+            
+        </div>
+    </body>
+    <script>
+    $(document).ready(function(){
+        $(".droplist").click(function(){
+         $(".home").removeClass("home").addClass("droplist");
+        $(this).removeClass("droplist").addClass("home");
+        });
+        $(".home").click(function(){
+        $(".home").removeClass("droplist").addClass("home");
+            $(".droplist").removeClass("home").addClass("droplist");
+            
+        });
+        $("#active").click(function(){
+            $(".droplist").removeClass("home").addClass("droplist");
+            $(".home").removeClass("home").addClass("droplist");
+            $(this).removeClass("droplist").addClass("home");
+            
+        });
+        
+    });
+   var index=4,leng=6;
+        var midarray=["#mid1","#mid2","#mid3","#mid4","#mid5","#mid6"];
+        var imagearray = ["images/Salvation_mainimg1.png","images/Salvation_mainimg2.png","images/Salvation_mainimg3.png","images/Salvation_mainimg4.png","images/Salvation_mainimg5.png","images/Salvation_mainimg6.png"];
+        var imgsrc= document.getElementById("image").src;
+        
+        function slideshow(n)
+        {   
+            index=index+n;
+            if (index > leng) {index = 1}    
+  if (index < 1) {index = leng}
+             document.getElementById("image").src=imagearray[index-1];
+            $(".colorbox div").removeClass("midd1").addClass("midd");
+            var midvalue=midarray[index-1];
+            $(midvalue).removeClass("midd").addClass("midd1");
+        }
+        
+        function showimg(i)
+        {
+            index=i;
+              document.getElementById("image").src=imagearray[i-1];
+            
+         }
+        $(document).ready(function(){
+               
+            setInterval(function(){slideshow(1);},2000);
+           
+         $(".colorbox div").click(function(){
+                $(".colorbox div").removeClass("midd1").addClass("midd");
+                $(this).addClass("midd1");
+            });
+            });
+        $( function() {
+            var icons = {
+          header: "repeatbutton",
+          activeHeader: "downbutton"
+      };
+    $( "#accordion" ).accordion({
+        icons: icons,
+          heightStyle: "content",
+          collapsible: true
+    });
+  } );
+        var title,content,selectedval;
+      // Get the modal
+var modal = document.getElementById('myModal');
+var cancel=document.getElementById('cancel');
+var submit=document.getElementById('submit');
+// Get the button that opens the modal
+var btn = document.getElementById("edit");
+var btn1 = document.getElementById("edit1");
+var btn2 = document.getElementById("edit2");
+var btn3 = document.getElementById("edit3");
+var btn4 = document.getElementById("edit4");
+var btn5 = document.getElementById("edit5");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    var a=$("#titletext").text();
+    var b=$('#divine2').text();
+   $('#contenttext').val(b);
+    $("#newtitle").val(a);
+    modal.style.display = "block";
+    selectedval=0;
+}
+btn1.onclick = function() {
+     var a=$("#titletext1").text();
+    $("#newtitle").val(a);
+    var b=$('#divine21').text();
+  $('#contenttext').val(b);
+    modal.style.display = "block";
+    selectedval=1;
+}
+btn2.onclick = function() {
+     var a=$("#titletext2").text();
+    $("#newtitle").val(a);
+    var b=$('#divine22').text();
+  $('#contenttext').val(b);
+    modal.style.display = "block";
+    selectedval=2;
+}
+btn3.onclick = function() {
+     var a=$("#titletext3").text();
+    $("#newtitle").val(a);
+    var b=$('#divine23').text();
+  $('#contenttext').val(b);
+    modal.style.display = "block";
+selectedval=3;
+}
+btn4.onclick = function() {
+     var a=$("#titletext4").text();
+    $("#newtitle").val(a);
+    var b=$('#divine24').text();
+   $('#contenttext').val(b);
+    modal.style.display = "block";
+selectedval=4;
+}
+btn5.onclick = function() {
+     var a=$("#titletext5").text();
+    $("#newtitletext").val(a);
+    var b=$('#divine25').text();
+    $('#contenttext').val(b);
+    modal.style.display = "block";
+selectedval=5;
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+
+}
+cancel.onclick = function() {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+submit.onclick=function(){
+    title=document.getElementById('newtitle').value;
+    content=document.getElementById('contenttext').value;
+    if(selectedval==0)
+    {
+    
+  $("#titletext").text(title.toString());
+            $("#divine2").text(content.toString());
+    }
+    else if(selectedval==1)
+        {
+           
+  $("#titletext1").text(title.toString());
+            $("#divine21").text(content.toString());
+        }
+      else if(selectedval==2)
+        {
+            
+  $("#titletext2").text(title.toString());
+            $("#divine22").text(content.toString());
+        }   
+ else if(selectedval==3)
+        {
+           
+  $("#titletext3").text(title.toString());
+            $("#divine23").text(content.toString());
+        }
+     else if(selectedval==4)
+        {
+            
+      $("#titletext4").text(title.toString());
+            $("#divine24").text(content.toString());
+              }
+     else if(selectedval==5)
+        {
+            
+ $("#titletext5").text(title.toString());
+            $("#divine25").text(content.toString());
+        }
+    modal.style.display = "none";
+    selectedval=10;
+    title=" ";
+    content=" ";
+}
+    
+    </script>
+</html>

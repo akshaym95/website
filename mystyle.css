@@ -1,0 +1,699 @@
+ #html{
+            position: absolute;
+            margin: 0 auto;
+            width:930px;
+        }
+        #body{
+            position: relative;
+            margin: 0 auto;
+            width:900px;
+        }
+        .mainbody{
+            margin:20px;
+            margin-left: 60px;
+            width: 1060px;
+            height: 930px;
+            background-image: url(images/Salvation_back.png);
+            background-size: contain;
+            z-index:-100;
+        }
+        .maintop{
+            background-size: contain;
+            width:1000px;
+            height:800px;
+        }
+        .mainbottom{
+            z-index: -30;
+            position: relative;
+            margin-bottom: 40px;
+             margin-left: 40px;
+            width:1100px;
+            height:120px;
+        }
+        .originalbody{
+           background-color: white;
+            margin-left: 60px;
+            width:930px;
+            height:800px
+            
+        }
+        .navigationlogin{
+		 
+            height:55px;
+            width:792px;
+            
+        }
+        .navigation{
+             float:left;
+            display: inline-block;
+            vertical-align: top;
+           height:55px;
+            width:740px;
+            
+        }
+        .droplist{
+              color:#a6a6a6;
+              border: 2px;
+             height: 20px;
+             padding:10px;
+             font-size: 10px;
+             border-style: solid;
+            border-color:#cccccc;
+             border-right-width:1px;
+             border-bottom-width: 0px;
+           width:60px;
+              background-image: url(images/Salvation_scrollback.png);
+             background-size: contain;
+           float:left;
+            display: inline-block;
+            vertical-align:top;
+            text-align: center;
+ }
+ .home{
+            color:#a6a6a6;
+             border: 2px;
+            height: 20px;
+            padding:10px;
+             font-size: 10px;
+            border-style: solid;
+           border-color:#cccccc;
+          border-bottom-width: 0px;
+          border-right-width:1px;
+            width:60px;
+            background-color: white;
+		 float:left;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+        .login{
+            color:darkorange;
+            font-size: 12px;
+             float:right;
+            margin-right:4px;
+            margin-top:-5px;
+            display: inline-block;
+            vertical-align: top;
+            height:15px;
+            width:90px;
+        }
+        .logoline{
+             background-color: white;
+            z-index: 10px;
+           
+               border-width: 2px;
+              border-color: #cccccc;
+             border-style: solid;
+            margin-top:4px;
+            width:inherit;
+            height:792px;
+             border-top: 0px;
+            
+            
+        }
+        .logo{
+             float:left;
+            display: inline-block;
+            vertical-align: top;
+            width:600px;
+            height:400px;
+            padding-left:15px;
+            padding-top:35px;
+            
+        }
+        .nounderline{
+            font-size: 14px;
+            text-decoration: none;
+            color:darkorange;
+            
+        }
+        .previousandnext{
+            padding-right: 10px;
+            width:610px;
+             border: 1px;
+             background-image: url(images/Salvation_scrollback.png);
+              border-color: #cccccc;
+            border-style: solid;
+            background-size: contain;
+            width:inherit;
+            height:30px;
+            margin-top: -10px;
+        }
+        .midd{
+            cursor: pointer;
+              float:left;
+            text-align: center;
+             border: 1px;
+             border-color: #cccccc;
+            border-style: solid;
+            display: inline-block;
+            vertical-align: top;
+            width:7px;
+            height: 7px;
+            margin: 5px;
+            background-color:#666666;
+        }
+        .midd1{
+            cursor: pointer;
+            margin: 5px;
+              float:left;
+            text-align: center;
+             border: 1px;
+            border-color: #cccccc;
+            border-style: outset;
+            display: inline-block;
+            vertical-align: top;
+            width:7px;
+            height:7px;
+            background-color:#b30059;
+        }
+        .previous{
+            cursor: pointer;
+              margin-top: -10px;
+              float:left;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            height: inherit;
+            width:100px;
+        }
+        .next{
+             cursor: pointer;
+              margin-top: -10px;
+            padding-top: 20px;
+            text-align: center;
+              float:left;
+            display: inline-block;
+            vertical-align: top;
+            height: inherit;
+            width:100px;
+        }
+        .colorbox{
+              margin-top: -10px;
+            padding-top:20px;
+            padding-left: 120px;
+            float:left;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            width:280px;
+            
+        }
+        .image1{
+            width:180px;
+            height: 200px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .line{
+            width: 290px;
+        }
+         .image2{
+             padding-left: 25px;
+            width:180px;
+            height: 200px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+         .image3{
+             padding-left: 25px;
+            width:180px;
+            height: 200px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        #image{
+            display: block;
+            border: 1px;
+            border-color: #cccccc;
+            border-style:solid;
+        }
+        .threeimages{
+            border: inherit;
+            height: 300px;
+        }
+        #para{
+            font-size:12px;
+            color:darkviolet;
+            width:185px;
+            height: 100px;
+            text-align: justify;
+        }
+        #myimage{
+            height:120px;
+            width: 200px;
+        }
+        .searchbox{ 
+            height: 750px;
+            width: 271px;
+            vertical-align: top;
+             float:right;
+            margin-right:20px;
+            display: inline-block;
+        }
+        .box1{
+            padding-top:10px;
+            height: 30px;
+	
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        #searchbutton{
+           
+            background-image: url(images/Salvation_buttonback.png);
+            background-size: contain;
+            width:30px;
+            height:20px;
+        }
+        .searchbutton1{
+            margin-top:10px;
+            width:30px;
+            height:inherit;
+             margin-left:5px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .searchdiv{
+            width:290px;
+            height: 30px;
+        }
+        .featuredprocedure{
+            border: 1px;
+            color: #737373;
+             border-color: #cccccc;
+            border-style: solid;
+            background-image: url(images/Salvation_scrollback.png);
+            background-size: contain;
+                width:270px;
+            height: 37px;
+        }
+        .box2{
+            padding-top: 5px;
+            width: 200px;
+            height: 20px;
+            font-size: 15px;
+             vertical-align: top;
+             padding-left:10px;
+             float:left;
+            display: inline-block;
+		
+        }
+        .downbutton{
+            background-image: url(images/Salvation_downarrow.png);
+            background-size: contain;
+            height: 37px; 
+            width:20px;
+            width:20px;
+            background-size: contain;
+            z-index: 300;
+            background-position: top;
+            vertical-align: top;
+             float:right;
+            display:block;
+        }
+        .adv{
+            border: 1px;
+            border-color: #cccccc;
+            border-style: solid;
+            height: 255px;
+             width:270px;
+		
+        }
+        .divineblock{
+            width: inherit;
+            height: 90px;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .divinebook{
+            padding-left: 10px;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .divinetext{
+            width: 180px;
+            height: inherit;
+             vertical-align: top;
+             float:right;
+            display: inline-block;
+        }
+        #divinetexth4{
+            margin: 0;
+            color: #bfbfbf;
+        }
+ #divine2{
+     
+            padding-top: 5px;
+             text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:40px;
+            overflow-y: scroll;
+        }
+#divine21{  
+    padding-top: 5px;
+             text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:50px;
+    overflow-y: scroll;
+        }
+#divine22{
+    padding-top: 5px;
+             text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:50px;
+    overflow-y: scroll;
+        }
+#divine23{   
+    padding-top: 5px;
+             text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:50px;
+        overflow-y: scroll;
+}
+#divine24{
+    padding-top: 5px;
+             text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:50px;
+        overflow-y: scroll;
+}
+#divine25{
+    padding-top: 5px;
+            text-overflow: ellipsis;
+            padding-left: 10px;
+            width:250px;
+            height:50px;
+        overflow-y: scroll;
+}
+        .moredetailsandaddtocart{
+            padding-top:2px;
+            width: inherit;
+            height: 40px;
+        }
+        .moredetailsimg{
+            padding-left: 5px;
+             vertical-align: top;
+            width:30px;
+             float:left;
+            display: inline-block;
+        }
+        .moredetails{
+              color:#595959;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .addtocartimg{
+            padding-left: 10px;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .addtocart{
+              color:#595959;
+            padding-left: 5px;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .color{
+            border: 1px;
+            border-color: orange;
+            border-style: solid;
+            margin-left: 10px;
+            padding-left: 10px;
+            width: 240px;
+            color: white;
+            background-image:url(images/Salvation_sidelnkback.png);
+                height: 20px;
+        }
+        .repeatblock{
+            
+            width:271px;
+             height: 37px;
+            background-image: url(images/Salvation_scrollback.png);
+            background-size: contain;
+        }
+        .repeatimg{
+            width:190px;
+            padding-top:5px;
+            padding-left: 2px;
+             vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .repeatbutton{
+            background-image: url(images/Salvation_rightarrow.png);
+            background-size: contain;
+            height: 37px; 
+            width:20px;
+            width:20px;
+            background-size: contain;
+            z-index: 300;
+            background-position: top;
+            vertical-align: top;
+             float:right;
+            display:block;
+        }
+        #h3{
+            margin: 0;
+        }
+        #ulid{
+            padding-left: 0px;
+        }
+        #listid{
+		
+            text-decoration: none;
+            list-style: none;
+            padding-top: 5px;
+            font-size: 12px;
+        }
+        div.mainfooter{
+            width: inherit;
+            height:90px;
+            padding-left: 80px;
+            padding-top: 50px;
+        }
+        div.radio{
+            width:35px;
+            height: 35px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        div.radiotext{
+            width:65px;
+            font-size: 11px;
+             color:#595959;
+            height: 35px;
+           padding-left: 3px;
+            padding-top:3px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+div.space{
+    width:30px;
+    height: 30px;
+                vertical-align: top;
+             float:left;
+            display: inline-block;
+    
+}
+        div.movie{
+            padding-left: 7px;
+            width:35px;
+              height: 35px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        div.movietext{
+            width:90px;
+            font-size: 11px;
+             color:#595959;
+            height: 35px;
+           padding-left: 3px;
+            padding-top:3px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        
+        }
+        div.email{
+             padding-left:7px;
+            width:35px;
+              height: 35px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        
+        }
+        div.emailtext{
+            width:80px;
+            font-size: 11px;
+             color:#595959;
+            height: 35px;
+           padding-left: 3px;
+            padding-top:3px;
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        
+        }
+        .divideline{
+
+            width:1px;
+            height:35px;
+            background-color:#cccccc; 
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .divideline1{
+                 
+            width:1px;
+            height:35px;
+            background-color:white; 
+            vertical-align: top;
+             float:left;
+            display: inline-block;
+        }
+        .rightfooter{
+            color:#595959;
+            width:400px;
+            height: auto;
+            padding-right: 110px;
+            font-size: 12px;
+            vertical-align: top;
+             float:right;
+            display: inline-block;
+            
+        }
+        #readmore{
+            font-size: 11px;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        #quicklinks{
+
+            font-size: 14px;
+        }
+div.loginandnavigation{
+    width: 1000px;
+    border-color:#cccccc;
+    height:50px;
+}
+div.mynav{
+    
+        margin-top: 12px;
+        height:50px;
+        width:747px;
+         vertical-align: top;
+             float:left;
+            display: inline-block;
+}
+div.mylogin{
+    padding-top: 27px;
+    padding-left:40px;
+    padding-bottom: 5px;
+    border:2px;
+    font-weight: bold;
+    color:darkorange;
+    border-style: solid;
+    border-color: #cccccc;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    margin-top: 3px;
+    width:144px;
+     vertical-align: top;
+    float:left;
+    display: inline-block;
+            
+}
+h3{
+    margin: 0;
+}
+#titletext{
+       color: #737373;
+    width:200px;
+    height: 15px;
+}
+#titletext1{
+       color: #737373;
+    width:200px;
+    height: 15px;
+}
+#titletext2{
+    color: #737373;
+    width:200px;
+    height: 15px;
+}
+#titletext3{
+       color: #737373;
+    width:200px;
+    height: 15px;
+}
+#titletext4{
+       color: #737373;
+    width:200px;
+    height: 15px;
+}
+#titletext5{
+       color: #737373;
+    width:200px;
+    height: 15px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
